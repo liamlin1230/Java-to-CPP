@@ -1,0 +1,33 @@
+[0m[[31merror[0m] [0mTest edu.nyu.oop.[33mSymbolTableTest[0m.[31mtestLookup[0m failed: xtc.tree.[31mVisitingException[0m: Error visiting node MethodDeclaration(Modifiers(Modifier("static")), null, Type(PrimitiveType("int"), null), "x", FormalParameters(), null, null, Block(ReturnStatement(IntegerLiteral("4")))) with visitor edu.nyu.oop.SymbolTableLookup@4840fdaf, took 0.008 sec[0m
+[0m[[31merror[0m] [0m    at xtc.tree.Visitor.dispatch(Visitor.java:228)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.util.RecursiveVisitor.visit(RecursiveVisitor.java:9)[0m
+[0m[[31merror[0m] [0m    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[31merror[0m] [0m    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)[0m
+[0m[[31merror[0m] [0m    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[31merror[0m] [0m    at java.lang.reflect.Method.invoke(Method.java:606)[0m
+[0m[[31merror[0m] [0m    at xtc.tree.Visitor.dispatch(Visitor.java:210)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.util.RecursiveVisitor.visit(RecursiveVisitor.java:9)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.SymbolTableLookup.visitClassDeclaration(SymbolTableLookup.java:59)[0m
+[0m[[31merror[0m] [0m    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[31merror[0m] [0m    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)[0m
+[0m[[31merror[0m] [0m    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[31merror[0m] [0m    at java.lang.reflect.Method.invoke(Method.java:606)[0m
+[0m[[31merror[0m] [0m    at xtc.tree.Visitor.dispatch(Visitor.java:210)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.SymbolTableLookup.visitCompilationUnit(SymbolTableLookup.java:41)[0m
+[0m[[31merror[0m] [0m    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[31merror[0m] [0m    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)[0m
+[0m[[31merror[0m] [0m    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[31merror[0m] [0m    at java.lang.reflect.Method.invoke(Method.java:606)[0m
+[0m[[31merror[0m] [0m    at xtc.tree.Visitor.dispatch(Visitor.java:210)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.SymbolTableLookup.getSummary(SymbolTableLookup.java:121)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.SymbolTableTest.testLookup([35mSymbolTableTest.java[0m:[33m57[0m)[0m
+[0m[[31merror[0m] [0m    ...[0m
+[0m[[31merror[0m] [0mCaused by: java.lang.NullPointerException[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.SymbolTableLookup.visitMethodDeclaration(SymbolTableLookup.java:73)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.util.RecursiveVisitor.visit(RecursiveVisitor.java:9)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.util.RecursiveVisitor.visit(RecursiveVisitor.java:9)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.SymbolTableLookup.visitClassDeclaration(SymbolTableLookup.java:59)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.SymbolTableLookup.visitCompilationUnit(SymbolTableLookup.java:41)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.SymbolTableLookup.getSummary(SymbolTableLookup.java:121)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.SymbolTableTest.testLookup([35mSymbolTableTest.java[0m:[33m57[0m)[0m
+[0m[[31merror[0m] [0m    ... 54 more[0m

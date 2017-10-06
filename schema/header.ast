@@ -1,0 +1,52 @@
+*Class*(
+    HeaderDeclaration(
+        DataLayout(
+            FieldDeclaration(
+                Modifiers(
+                ),
+                "TYPE",
+                "NAME"
+            ),
+            DataLayoutMethodDeclaration(
+                Modifiers(
+                    "static"
+                ),
+                "RETURNTYPE",
+                "NAME",
+                "ORIGIN_CLASS",
+                Parameters(
+                    "TYPE1",
+                    "TYPE2"
+                )
+            )
+        ),
+        VTable(
+            ConstructorDeclaration(
+                "__String_VT",
+                Parameters(),
+                InitializationList(
+                    __isa(
+                      "__NAME::Class()"
+                    ),
+                    Initializer(
+                      Cast(
+                        "(CLASS(*)METHOD(ARG1, ARG2))"
+                      ),
+                      "&__CLASS::MAETHOD(ARG1, ARG2)"
+                    )
+                )
+            )
+        )
+    ),
+    Child1(
+        ...
+    ),
+    Child2(
+        ... ,
+        Child3()
+    ),
+    Child3(
+        "main" // Means there is only one method in this class: main
+    )
+)
+

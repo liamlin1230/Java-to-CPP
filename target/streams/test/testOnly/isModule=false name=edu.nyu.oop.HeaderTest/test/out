@@ -1,0 +1,29 @@
+[0m[[31merror[0m] [0mTest edu.nyu.oop.[33mHeaderTest[0m.[31mtestCreateTree[0m failed: xtc.tree.[31mVisitingException[0m: Error visiting node FieldDeclaration(Modifiers(), "__Object_VT*", "__vptr") with visitor edu.nyu.oop.CPPHeaderPrinter@1f635acd, took 0.006 sec[0m
+[0m[[31merror[0m] [0m    at xtc.tree.Visitor.dispatch(Visitor.java:228)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.CPPHeaderPrinter.visit(CPPHeaderPrinter.java:31)[0m
+[0m[[31merror[0m] [0m    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[31merror[0m] [0m    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)[0m
+[0m[[31merror[0m] [0m    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[31merror[0m] [0m    at java.lang.reflect.Method.invoke(Method.java:606)[0m
+[0m[[31merror[0m] [0m    at xtc.tree.Visitor.dispatch(Visitor.java:210)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.CPPHeaderPrinter.visit(CPPHeaderPrinter.java:31)[0m
+[0m[[31merror[0m] [0m    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[31merror[0m] [0m    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)[0m
+[0m[[31merror[0m] [0m    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[31merror[0m] [0m    at java.lang.reflect.Method.invoke(Method.java:606)[0m
+[0m[[31merror[0m] [0m    at xtc.tree.Visitor.dispatch(Visitor.java:210)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.CPPHeaderPrinter.visit(CPPHeaderPrinter.java:31)[0m
+[0m[[31merror[0m] [0m    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[31merror[0m] [0m    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)[0m
+[0m[[31merror[0m] [0m    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[31merror[0m] [0m    at java.lang.reflect.Method.invoke(Method.java:606)[0m
+[0m[[31merror[0m] [0m    at xtc.tree.Visitor.dispatch(Visitor.java:210)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.HeaderTest.testCreateTree([35mHeaderTest.java[0m:[33m60[0m)[0m
+[0m[[31merror[0m] [0m    ...[0m
+[0m[[31merror[0m] [0mCaused by: java.lang.ClassCastException: java.lang.String cannot be cast to xtc.tree.Node[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.CPPHeaderPrinter.visitFieldDeclaration(CPPHeaderPrinter.java:137)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.CPPHeaderPrinter.visit(CPPHeaderPrinter.java:31)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.CPPHeaderPrinter.visit(CPPHeaderPrinter.java:31)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.CPPHeaderPrinter.visit(CPPHeaderPrinter.java:31)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.HeaderTest.testCreateTree([35mHeaderTest.java[0m:[33m60[0m)[0m
+[0m[[31merror[0m] [0m    ... 53 more[0m

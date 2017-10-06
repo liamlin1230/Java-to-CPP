@@ -1,0 +1,27 @@
+[0m[[0mdebug[0m] [0mInvalidating /Users/Yougen/translator-syn-tax-collectors/target/scala-2.11/classes/edu/nyu/oop/CppImplementationPrinter.class: stamp changed from lastModified(1450163824000) to lastModified(1450166431000)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set(/Users/Yougen/translator-syn-tax-collectors/target/scala-2.11/classes/edu/nyu/oop/CppImplementationPrinter.class)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set(/Users/Yougen/translator-syn-tax-collectors/src/test/java/edu/nyu/oop/CppImplementationPrinterTest.java)[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/Yougen/translator-syn-tax-collectors/src/test/java/edu/nyu/oop/CppImplementationPrinterTest.java)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to /Users/Yougen/translator-syn-tax-collectors/target/scala-2.11/test-classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call com.sun.tools.javac.api.JavacTool@1534642f directly...[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.043458 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.025224 s[0m
+[0m[[0mdebug[0m] [0mJava compile + analysis took 0.078147 s[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

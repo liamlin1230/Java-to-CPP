@@ -1,0 +1,83 @@
+runxtc -printJavaAst src/test/java/inputs/Test000/Test000.java
+runxtc -printJavaAst src/test/java/inputs/Test000/Test001.java
+runxtc -printJavaAst src/test/java/inputs/Test000/Test000.java
+exit
+test-only *AstGeneratorTest*
+test-only *ASTGeneratorTest*
+exit
+test-only *HeaderTest*
+exit
+test-only *ImplementationPrinterTest*
+test-only *TestPrint*
+exit
+test-only *ASTGenetatorTest*
+test-only *ASTGeneratorTest*
+exit
+test-only *ASTGeneratorTest*
+exit
+test-only *JavaPrinterTest*
+test-only *CPPPrinterTest*
+test-only *JavaPrinterTest*
+exit
+test-only *JavaPrinterTest*
+exit
+test-only *JavaPrinterTest*
+exit
+test-only *JavaPrinterTest*
+exit
+test-only *JavaPrinterTest*
+exit
+test-only *JavaPrinterTest*
+exit
+test-only *JavaPrinterTest*
+exit
+test-only *JavaPrinterTest*
+exit
+test-only *JavaPrinterTest*
+exit
+test-only *JavaPrinterTest*
+exit
+test-only *JavaPrinterTest*
+exit
+test-only *JavaPrinterTest*
+test-only *CppImplementationPrinterTest*
+exit
+test-only *CppImplementationPrinterTest*
+exit
+test-only *SymbolTableTest*
+exit
+test-only *SymbolTableTest*
+exit
+test-only *SymbolTableTest*
+exit
+test-only *SymbolTableTest*
+exit
+test-only *SymbolTableTest*
+exit
+test-only *SymbolTableTest*
+clear
+exit
+test-only *SymbolTableTest*
+exit
+test-only *SymbolTableTest*
+clear
+sbt
+test-only *SymbolTableTest*
+exit
+test-only *SymbolTableTest*
+exit
+test-only *SymbolTableTest*
+test-only *CppImplementationPrinterTest*
+test-only *CppHeaderPrinterTest*
+test-only *CppImplementationPrinterTest*
+exit
+runxtc -translateJavaCode src/test/java/input2/test043/Test043.java
+exit
+runxtc -translateJavaCode src/test/java/input2/test043/Test043.java
+runxtc -translateJavaCode src/test/java/input/test001/Test001.java
+runxtc -translateJavaCode src/test/java/inputs2/test043/Test043.java
+exit
+runxtc -translateJavaCode src/test/java/inputs/test006/Test006.java
+exit
+runxtc -translateJavaCode src/test/java/inputs/test006/Test006.java
+exit

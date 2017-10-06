@@ -1,0 +1,5 @@
+[0m[[31merror[0m] [0mTest edu.nyu.oop.[33mJavaPrinterTest[0m.[31mtestCreateTree[0m failed: java.lang.[31mIndexOutOfBoundsException[0m: Index: 0, Size: 0, took 0.011 sec[0m
+[0m[[31merror[0m] [0m    at java.util.LinkedList.checkElementIndex(LinkedList.java:553)[0m
+[0m[[31merror[0m] [0m    at java.util.LinkedList.get(LinkedList.java:474)[0m
+[0m[[31merror[0m] [0m    at edu.nyu.oop.JavaPrinterTest.testCreateTree([35mJavaPrinterTest.java[0m:[33m53[0m)[0m
+[0m[[31merror[0m] [0m    ...[0m
